@@ -1,0 +1,8 @@
+name_prefix       = "e2e-dev"
+environment       = "dev"
+address_space     = ["10.10.0.0/16"]
+app_subnet_prefix = "10.10.1.0/24"
+plan_sku          = "B1"
+always_on         = false
+log_retention_days = 30
+tags = { project = "devops-e2e-terraform-azure" }
